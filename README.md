@@ -1,5 +1,5 @@
 
-# Flaski Rakenduse Serveri Seadistamine
+# RIK server
 
 See juhend aitab teil seadistada Flaski rakenduse serveri, tõmmates koodi alla Gitist ja seadistades arenduskeskkonna.
 
@@ -13,13 +13,17 @@ Enne alustamist veenduge, et teie süsteemis on paigaldatud järgmised tööriis
 
 ## Koodi Allalaadimine Gitist
 
-Esmalt kloonige soovitud Flaski rakenduse repositoorium kohalikku süsteemi kasutades Git käsurida. Asendage `repositooriumi-url` tegeliku repositooriumi URL-iga:
+Esmalt kloonige soovitud Flaski rakenduse repositoorium kohalikku süsteemi kasutades Git käsurida. 
 
 ```bash
-git clone repositooriumi-url
+git clone https://github.com/MarkkusKoddala/rik_back.git
 ```
 
 See käsk laadib alla kogu repositooriumi sisu teie valitud kausta.
+
+## Mine projekti kausta
+```bash cd rik_back```
+
 
 ## Virtuaalse Keskkonna Seadistamine
 
@@ -42,12 +46,6 @@ pip install -r requirements.txt
 ## Rakenduse Käivitamine
 
 Peale sõltuvuste paigaldamist saate Flaski rakenduse käivitada järgmise käsklusega:
-
-```bash
-flask run
-```
-
-Või kui teie rakendus kasutab `app.py` või `main.py` faili rakenduse käivitamiseks:
 
 ```bash
 python app.py
