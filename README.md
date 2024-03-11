@@ -21,8 +21,9 @@ git clone https://github.com/MarkkusKoddala/rik_back.git
 
 See käsk laadib alla kogu repositooriumi sisu teie valitud kausta.
 
-## Mine projekti kausta:
-```cd rik_back```
+## Mine projekti kausta
+```bash cd rik_back```
+
 
 ## Virtuaalse Keskkonna Seadistamine
 
